@@ -2,7 +2,7 @@
 ## Sublime text3安装
 ### Sublime text3的首次安装可以到指定官方网站下载，尽量使用原版，没必要使用中文版。
     [下载地址](http://www.sublimetext.com/)
-    下载完成后就是傻瓜式的安装了，没什么难度，就不说明了。主要的重点就是插件这块，Sublime最强大之处就是其插件的数量足够多
+ 下载完成后就是傻瓜式的安装了，没什么难度，就不说明了。主要的重点就是插件这块，Sublime最强大之处就是其插件的数量足够多
     
 ## Sublime插件安装
 ### 首次安装插件需进行配置工作，具体步骤如下：
@@ -15,7 +15,7 @@
 
 ### 比较高效有用的插件列表
 1. Soda Theme
-  Sublime Text 3中较为常用的一款自定义编辑器主题，用过的人都说好。Soda Theme包含代码着色、标签、图标，拥有light和dark两种颜色主题便于用户在不同时间段使用。
+   Sublime Text 3中较为常用的一款自定义编辑器主题，用过的人都说好。Soda Theme包含代码着色、标签、图标，拥有light和dark两种颜色主题便于用户在不同时间段使用。
 2. Alignment
   Aligment插件让开发者自动对齐代码，包括PHP、CSS、JavaScript语言。使得代码看起来更整齐美观，更具可读性。
 3. SublimeLinter
