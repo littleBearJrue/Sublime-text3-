@@ -78,3 +78,27 @@
 * Ctrl+： 打开搜索框，自动带#，输入关键字，查找文件中的变量名、属性名等。
 * Ctrl+Shift+P 打开命令框。场景栗子：打开命名框，输入关键字，调用sublime text或插件的功能，例如使用package安装插件。
 * Esc 退出光标多行选择，退出搜索框，命令框等。
+
+
+### sublime + lua的实现
+1. lua环境的配置：
+  * window环境下首先务必安装luaForWindow,即可完成所有lua环境的配置，不需要配置环境变量
+  * mac环境下lua的安装配置：
+    ```
+    curl -R -O http://www.lua.org/ftp/lua-5.2.3.tar.gz
+    tar zxf lua-5.2.3.tar.gz
+    cd lua-5.2.3
+    make macosx test
+    ```
+2. sublime text3工具新增lua的配置：
+  * 在Tools下选择Build System下的new Build System,输入
+  ```
+   {  
+    "cmd": ["E:\\lua\\5.1\\lua.exe", "$file"],  
+    "file_regex": "^(...*?):([0-9]*):?([0-9]*)",  
+    "selector": "source.lua",
+    }  
+  ```
+  并执行保存。
+  * 在Tools下选择Build System选择刚才保存的文件名
+  * 之后每次编译只需要按住ctrl + b即可
